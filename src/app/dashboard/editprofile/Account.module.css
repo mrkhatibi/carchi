@@ -1,0 +1,109 @@
+
+.container {
+  direction: rtl;
+  padding: 20px;
+  background-color: #f9fbff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+.profileBox,
+.editBox {
+  background-color: #ffffff;
+  border: 1px solid #e3eaf5;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(11, 93, 215, 0.08);
+}
+
+.title {
+  color: #0b5dd7;
+  margin-bottom: 10px;
+}
+
+.info {
+  color: #333333;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+.input {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-right: 8px;
+  outline: none;
+  font-size: 0.9rem;
+}
+.input:focus {
+  border-color: #0b5dd7;
+  box-shadow: 0 0 4px rgba(11, 93, 215, 0.3);
+}
+
+.btnGroup {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.editButton,
+.cancelButton,
+.saveButton {
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.editButton {
+  background-color: #ffd05b;
+  color: #333333;
+}
+.editButton:hover {
+  background-color: #ffca2c;
+}
+
+.cancelButton {
+  background-color: #f44336;
+  color: #ffffff;
+}
+.cancelButton:hover {
+  background-color: #e53935;
+}
+
+.saveButton {
+  background-color: #0b5dd7;
+  color: #ffffff;
+}
+.saveButton:hover {
+  background-color: #084cb2;
+}
+
+.carsSection {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e3eaf5;
+  box-shadow: 0 2px 8px rgba(255, 208, 91, 0.12);
+}
+
+.sectionTitle {
+  color: #0b5dd7;
+  margin-bottom: 10px;
+}
+
+.carCard {
+  background-color: #fefce8;
+  border: 1px solid #ffe28a;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.carInfo {
+  font-size: 0.9rem;
+  color: #333333;
+}

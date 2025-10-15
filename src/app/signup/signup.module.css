@@ -1,0 +1,109 @@
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #1e40af; /* آبی تیره */
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fbbf24; /* زرد */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #1e40af;
+}
+
+.input::placeholder {
+  color: #64748b;
+}
+
+.button {
+  background-color: #fbbf24;
+  color: #1e40af;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #3f67ee;
+  color: #fbbf24;
+}
+
+.signincontainer {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #fbbf24; 
+  color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.signintitle {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:  #1e40af;
+}
+
+.signinform {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.signininput {
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #fbbf24;
+}
+
+.signininput::placeholder {
+  color: #64748b;
+}
+
+.signinbutton {
+  background-color:  #1e40af;
+  color: #fbbf24;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signinbutton:hover {
+  background-color: #ffef10;
+  color:  #1e40af;
+}

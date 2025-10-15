@@ -1,0 +1,149 @@
+.container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.image {
+  width: 70%;
+  margin: 10px auto;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #FF8C00;
+}
+
+.content {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #333333;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.postTime {
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+}
+
+/* 🔹 بخش نظرات */
+
+.commentSection {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.commentFormWrapper {
+  margin-bottom: 30px;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commentInput,
+.commentTextarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.commentInput:focus,
+.commentTextarea:focus {
+  border-color: #FF8C00;
+  outline: none;
+}
+
+.commentTextarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.commentButton {
+  width: 100px;
+  align-self: flex-end;
+  padding: 8px 16px;
+  background-color: #FF8C00;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.commentButton:hover {
+  background-color: #e67e00;
+}
+
+/* 🔹 لیست نظرات */
+
+.noComments {
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.commentsTitle {
+  color: #FF8C00;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.commentItem {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.commentName {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.commentText {
+  color: #555;
+  line-height: 1.4;
+}

@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1E40AF;
+    border-bottom: 10px solid #FBBF24;
+    color: white;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    gap: 40px;
+}
+.header button{
+    background-color: #FBBF24;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #1E40AF;
+    border-top: 10px solid #FBBF24;
+    color: white;
+    align-items: center;
+}

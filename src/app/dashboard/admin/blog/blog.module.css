@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container h3 {
+  margin: 30px;
+  padding: 30px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00b4ff, #ffe259); /* آبی فیروزه‌ای → زرد طلایی */
+  box-shadow: 0px 10px 20px rgba(0, 180, 255, 0.4);
+  color: rgb(1, 0, 77);
+  text-align: center;
+  font-weight: 600;
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+}
+
+.container h3:hover {
+  background: linear-gradient(135deg, #ffe259, #00b4ff); /* معکوس گرادیان */
+  box-shadow:
+    0px 0px 25px rgba(255, 226, 89, 0.8),
+    0px 0px 40px rgba(0, 180, 255, 0.6); /* درخشش زرد و آبی */
+  transform: scale(1.03); /* کمی بزرگ‌تر بشه موقع هاور */
+}
+
