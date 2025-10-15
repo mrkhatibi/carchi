@@ -1,15 +1,20 @@
-import styles from "./layout.module.css"
+import Link from "next/link";
+import styles from "./layout.module.css";
 function Footer() {
   return (
     <div className={styles.footer}>
-        <div className={styles.footerbar}>
-            <h3>خانه</h3>
-            <h3>دریافت نوبت</h3>
-            <h3>وبلاگ</h3>
-        </div>
-        <h3>Developed By MrKhatibi</h3>
+      <div className={styles.footerbar}>
+        <Link href={"/"}>
+          <h3>خانه</h3>
+        </Link>
+
+        <Link href={"/blogs"}>
+          <h3>وبلاگ</h3>
+        </Link>
+      </div>
+      <h3>Developed By MrKhatibi</h3>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
